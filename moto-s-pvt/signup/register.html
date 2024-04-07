@@ -25,7 +25,7 @@
             width: 100%;
             height: 731px;
             /* margin: 10% auto; */
-            
+
             /* border-radius: 5px; */
         }
 
@@ -54,8 +54,8 @@
             font-weight: bold;
             padding: 10px;
             border-radius: 6px;
-            color: aliceblue;
-            background-color: rgb(0, 0, 0);
+            color: black;
+            background-color: white;
             width: 150px;
             margin: 20px auto;
         }
@@ -74,16 +74,16 @@
         }
 
         .login-form-container h1 {
-            color:rgb(56, 102, 189);
+            color: rgb(56, 102, 189);
             font-family: "Rubik Scribble", system-ui;
             font-weight: 800;
             font-style: normal;
             font-size: 4em;
             padding: 0 0 50px;
-    
+
         }
 
-        #windows{
+        #windows {
             margin: 10em 2em 4em;
             height: 4em;
             width: 4em;
@@ -92,12 +92,21 @@
 
         }
 
+        #apple {
+            /* margin: 10em 2em 4em; */
+            height: 4em;
+            width: 4em;
+            filter: brightness(100%);
+            -webkit-filter: invert(100%);
+        }
+
         .input-field {
             box-sizing: border-box;
             font-size: 16px;
             padding: 14px;
             border-radius: 7px;
-            border: 1px solid rgb(56, 102, 189);;
+            border: 1px solid rgb(56, 102, 189);
+            ;
             width: 24em;
             outline: none;
         }
@@ -186,8 +195,15 @@
                 <button class="button-1" onclick="signup()">Sign up</button>
                 <button class="button-2" onclick="login()">Login</button>
             </div>
-            <span><svg id="windows" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 93.7l183.6-25.3v177.4H0V93.7zm0 324.6l183.6 25.3V268.4H0v149.9zm203.8 28L448 480V268.4H203.8v177.9zm0-380.6v180.1H448V32L203.8 65.7z"/></svg>
-            </span>
+            <div><svg id="windows" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                        d="M0 93.7l183.6-25.3v177.4H0V93.7zm0 324.6l183.6 25.3V268.4H0v149.9zm203.8 28L448 480V268.4H203.8v177.9zm0-380.6v180.1H448V32L203.8 65.7z" />
+                </svg>
+            </div>
+            <div><svg id="apple" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 93.7l183.6-25.3v177.4H0V93.7zm0 324.6l183.6 25.3V268.4H0v149.9zm203.8 28L448 480V268.4H203.8v177.9zm0-380.6v180.1H448V32L203.8 65.7z"/></svg>
+            </div>
+
         </div>
 
 
