@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <style>
         * {
             margin: 0px;
@@ -19,12 +20,12 @@
         .container {
             display: grid;
             grid-template-columns: 1fr 2fr;
-            background-color: rgb(141, 8, 8);
+            background-color: rgb(249, 70, 70);
             background: linear-gradient(to bottom, rgb(6, 108, 100), rgb(14, 48, 122));
             width: 100%;
             height: 731px;
             /* margin: 10% auto; */
-            ;
+            
             /* border-radius: 5px; */
         }
 
@@ -34,8 +35,8 @@
             font-size: 14px;
             font-weight: bolder;
             letter-spacing: 2px;
-            margin-top: 50%;
-            padding: 50px;
+            margin-top: 30%;
+            /* padding: 50px; */
         }
 
         .content-holder h2 {
@@ -61,38 +62,52 @@
 
 
         .box-2 {
-            background-color: white;
+            background-color: rgb(255, 255, 255);
 
             margin: 5px;
         }
 
         .login-form-container {
             text-align: center;
-            margin-top: 15%;
+            margin-top: 20%;
 
         }
 
         .login-form-container h1 {
-            color: black;
-            font-size: 3em;
-            padding: 20px;
+            color:rgb(56, 102, 189);
+            font-family: "Rubik Scribble", system-ui;
+            font-weight: 800;
+            font-style: normal;
+            font-size: 4em;
+            padding: 0 0 50px;
+    
+        }
+
+        #windows{
+            margin: 10em 2em 4em;
+            height: 4em;
+            width: 4em;
+            filter: brightness(100%);
+            -webkit-filter: invert(100%);
+
         }
 
         .input-field {
             box-sizing: border-box;
-            font-size: 14px;
-            padding: 10px;
+            font-size: 16px;
+            padding: 14px;
             border-radius: 7px;
-            border: 1px solid rgb(168, 168, 168);
-            width: 250px;
+            border: 1px solid rgb(56, 102, 189);;
+            width: 24em;
             outline: none;
         }
 
         .login-button {
             box-sizing: border-box;
             color: white;
-            font-size: 14px;
-            padding: 13px;
+            font-size: 20px;
+            padding: 15px;
+            margin-top: 25px;
             border-radius: 7px;
             border: none;
             width: 250px;
@@ -171,6 +186,8 @@
                 <button class="button-1" onclick="signup()">Sign up</button>
                 <button class="button-2" onclick="login()">Login</button>
             </div>
+            <span><svg id="windows" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 93.7l183.6-25.3v177.4H0V93.7zm0 324.6l183.6 25.3V268.4H0v149.9zm203.8 28L448 480V268.4H203.8v177.9zm0-380.6v180.1H448V32L203.8 65.7z"/></svg>
+            </span>
         </div>
 
 
@@ -186,7 +203,7 @@
                 <br><br>
                 <input type="password" placeholder="Password" class="input-field">
                 <br><br>
-                <a href=""><button class="signup-button" type="submit" >Sign Up</button></a>
+                <a href=""><button class="signup-button" type="submit">Sign Up</button></a>
 
             </div>
 
