@@ -805,105 +805,89 @@
 	<section id="blog" class="blog"></section><!--/.blog-->
 	<!--blog end -->
 
-	<!--contact start-->
-	<footer id="contact" class="contact">
-		<div class="container">
-			<div class="footer-top">
-				<div class="row">
-					<div class="col-md-3 col-sm-6">
-						<div class="single-footer-widget">
-							<div class="footer-logo">
-								<a href="index.html">contact-us</a>
-							</div>
-							<p>
-								Ased do eiusm tempor incidi ut labore et dolore magnaian aliqua. Ut enim ad minim
-								veniam.
-							</p>
-							<div class="col-sm-6">
-								<div class="footer-social">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-instagram"></i></a>
-									<a href="#"><i class="fa fa-linkedin"></i></a>
-									<a href="#"><i class="fa fa-pinterest-p"></i></a>
-									<a href="#"><i class="fa fa-behance"></i></a>
-								</div>
-							</div>
-							<div class="footer-contact">
-								<p>harshitkumar2k03@gmail.com</p>
-								<p>(+91) 7818893374</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-2 col-sm-6">
-						<div class="single-footer-widget">
-							<h2>about</h2>
-							<ul>
-								<li><a href="#">about us</a></li>
-								<li><a href="#">career</a></li>
-								<li><a href="#">terms <span> of service</span></a></li>
-								<li><a href="#">privacy policy</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-3 col-xs-12">
-						<div class="single-footer-widget">
-							<h2>top brands</h2>
-							<div class="row">
-								<div class="col-md-7 col-xs-6">
-									<ul>
-										<li><a href="#">BMW</a></li>
-										<li><a href="#">ultraviolette</a></li>
-										<li><a href="#">yamaha</a></li>
-										<li><a href="#">moto-guzzi</a></li>
-										<li><a href="#">jawa</a></li>
-										<li><a href="#">triumph</a></li>
-									</ul>
-								</div>
-								<div class="col-md-5 col-xs-6">
-									<ul>
-										<li><a href="#">kawasaki</a></li>
-										<li><a href="#">indian</a></li>
-										<li><a href="#">Yezdi</a></li>
-										<li><a href="#">harley-davidson</a></li>
-										<li><a href="#">ducati</a></li>
-										<li><a href="#">benelli</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-offset-1 col-md-3 col-sm-6">
-						<div class="single-footer-widget">
-							<h2>news letter</h2>
-							<div class="footer-newsletter">
-								<p>
-									Subscribe to get latest news update and informations
-								</p>
-							</div>
-							<div class="hm-foot-email">
-								<div class="foot-email-box">
-									<input type="email" class="form-control" placeholder="Add Email">
-								</div><!--/.foot-email-box-->
-								<div class="foot-email-subscribe">
-									<span><i class="fa fa-arrow-right"></i></span>
-								</div><!--/.foot-email-icon-->
-							</div><!--/.hm-foot-email-->
-						</div>
-					</div>
-				</div>
+  <!-- ==============================================
+    CONTACT
+    =============================================== -->
+    <section id="contact" class="add-padding border-top-color2">
+    
+		<div class="container text-center">
+		  
+		  <div class="row">
+		  
+			<div class="col-sm-6 col-md-5 text-right scrollimation fade-up d1">
+			
+			  <h1 class="big-text">Contact Me</h1>
+			  
+			  <p class="lead">Software Engineer. Lawyer.<br>Experienced Manager. Entrepreneur.</p>
+  
+			  <p>Sinatra, Ruby on Rails, JavaScript, Node.js, Express.js, Backbone.js, Handlebars.js, jQuery, AJAX, HTML5, CSS3, SASS, SQL, APIs, Git, GitHub/Bitbucket, WordPress, Heroku, Responsive/Mobile Development.
+  
+			  <p>Please feel free to contact me with questions, comments or collaborations.</p>
+  
+			  <p>For more information, <a href="http://korenlc.com" target="_blank">visit my blog.</a></p>
+			
 			</div>
-			<div class="footer-copyright">
-				<div class="row">
-					<div class="col-sm-6">
-						<p>
-							copyright 2024 &copy; MOTO-S design and developed by Harshit Kumar, all rights reserved.</a>
-						</p><!--/p-->
-					</div>
+		  
+			<!--=== Contact Form ===-->
+  
+			<form id="contact-form" class="col-sm-6 col-md-offset-1 scrollimation fade-left d3" action="contact.php" method="post" novalidate>
+			  
+			  <div class="form-group">
+				<label class="control-label" for="contact-name">Name</label>
+				<div class="controls">
+				<input id="contact-name" name="contactName" placeholder="Your name" class="form-control requiredField" data-new-placeholder="Your name" type="text" data-error-empty="Please enter your name">
+				<i class="fa fa-user"></i>
 				</div>
-			</div><!--/.footer-copyright-->
-		</div><!--/.container-->
-
-		<div id="scroll-Top">
+			  </div><!-- End name input -->
+			  
+			  <div class="form-group">
+				<label class="control-label" for="contact-mail">Email</label>
+				<div class=" controls">
+				<input id="contact-mail" name="email" placeholder="Your email" class="form-control requiredField" data-new-placeholder="Your email" type="email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
+				<i class="fa fa-envelope"></i>
+				</div>
+			  </div><!-- End email input -->
+			  
+			  <div class="form-group">
+				<label class="control-label" for="contact-message">Message</label>
+				<div class="controls">
+				  <textarea id="contact-message" name="comments"  placeholder="Your message" class="form-control requiredField" data-new-placeholder="Your message" rows="6" data-error-empty="Please enter your message"></textarea>
+				  <i class="fa fa-comment"></i>
+				</div>
+			  </div><!-- End textarea -->
+			  
+			  <p><button name="submit" type="submit" class="btn btn-color2 btn-block" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent"><i class="fa fa-paper-plane"></i>Send Message</button></p>
+			  <input type="hidden" name="submitted" id="submitted" value="true" />
+			  
+			</form><!-- End contact-form -->
+			
+		  </div>
+		  
+		</div>
+	  
+	  </section>
+	  
+	  <!-- ==============================================
+	  FOOTER
+	  =============================================== --> 
+	  
+	  <footer id="main-footer" class="add-padding border-top-color2">
+	  
+		<div class="container">
+  
+		  <p><a href="http://korenlc.com" target="_blank">VISIT MY BLOG</a></p><br>
+		
+		  <ul class="social-links text-center">
+			<li><a href="https://twitter.com/korenlc" target="_blank"><i class="fa fa-twitter fa-fw"></i></a></li>
+			<li><a href="https://plus.google.com/u/0/+KLCohen/posts/p/pub" target="_blank"><i class="fa fa-google-plus fa-fw"></i></a></li>
+			<li><a href="https://www.linkedin.com/in/korenlesliecohen" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
+		  </ul>
+		
+		  <p class="text-center">&copy; 2014 - Koren Leslie Cohen</p>
+		
+		</div>
+	
+		<div id="scroll-Top">  <!-- scroll topp -->
 			<div class="return-to-top">
 				<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title=""
 					data-original-title="Back to Top" aria-hidden="true"></i>
@@ -936,6 +920,9 @@
 
 	<!--Custom JS-->
 	<script src="assets/js/custom.js"></script>
+
+	<!-- contact js -->
+	<script src="assets/js/contact.js"></script>
 
 </body>
 

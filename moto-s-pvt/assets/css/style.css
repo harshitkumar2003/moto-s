@@ -783,168 +783,164 @@ nav.navbar.bootsnav .navbar-toggle i {
 /*-------------------------------------
         12. Contact
 --------------------------------------*/
-.contact {
-    background: #2a2d54;
+#contact{
+    background-image:url('../images/bg-contact.png');
+    background-repeat:no-repeat;
+    background-position:0 100%;
+    background-color: #fff;
 }
 
-.footer-top {
-    padding:130px 0 72px;
+#contact-form .form-group label{
+    display:none;
+    font-size:18px;
+    line-height:24px;
+    font-weight:100;
+    text-transform:uppercase;
 }
 
-/*.footer-logo*/
-.footer-logo a,
-.footer-logo a:hover,
-.footer-logo a:focus {
-    display: inline-block;
-    color: #fff;
-    font-size: 24px;
-    letter-spacing: 3px;
-    font-family: 'Rufina', serif;
-    font-weight: 700;
-    text-transform: uppercase;
+#contact-form.no-placeholder .form-group label{
+    display:block;
 }
 
-.single-footer-widget p {
-    font-size: 14px;
-    color: #eeeff6;
-    max-width: 300px;
-    margin: 25px 0 10px;
+#contact-form .controls {
+    padding:0;
+    margin-bottom:30px;
+    border:1px solid #ddd;
+    border-radius:2px;
 }
 
-.footer-contact p {
-    margin: 0;
-    color: #d1d7e9;
+#contact-form .form-control {
+    background:transparent !important;
+    border:none;
+    border-bottom:3px solid transparent;
+    border-radius:0;
+    outline:none;
+    box-shadow:none;
+    height:56px;
+    font-size:21px;
+    line-height:32px;
+    font-weight:100;
+    padding-left:64px;
+    -webkit-transition:border-color .3s ease-out;
+    transition:border-color .3s ease-out;
+    border-radius:2px;
 }
 
-/*.footer-logo*/
-
-.single-footer-widget {
-    margin-bottom: 20px;
-    margin-right: 20px;
+#contact-form .form-group{
+    position:relative;
 }
 
-.single-footer-widget h2 {
-    font-size: 14px;
-    color: #ffffff;
-    text-transform: uppercase;
-    margin-bottom: 10px;
+#contact-form .form-group [class*=fa] {
+    display:block;
+    width:64px;
+    position:absolute;
+    top:0;
+    left:5px;
+    color:#e5e5e5;
+    font-size:24px;
+    line-height:53px;
+    text-align:center;
+    font-weight:300;
+    opacity:0.5;
+    transition:opacity .2s ease-out;
 }
 
-.single-footer-widget ul li {
-    display: inherit;
-    -webkit-transition: .1s;
-    -moz-transition: 5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
-    transition: 1s;
+#contact-form.no-placeholder .form-group [class*=fa]{
+    top:30px;
 }
 
-.single-footer-widget ul li:hover {
-    -webkit-transform: translateX(10px);
-    -moz-transform: translateX(10px);
-    -ms-transform: translateX(10px);
-    -o-transform: translateX(10px);
-    transform: translateX(10px);
+#contact-form .form-control:focus + [class*=fa]{
+    opacity:1;
 }
 
-.single-footer-widget ul li a {
-    font-size: 14px;
-    color: #cfd0e3;
-    font-weight: 300;
-    padding-bottom: 13px;
+#contact-form textarea.form-control {
+    height:auto;
+    max-width:100%;
+    min-width:100%;
+    font-size:21px;
+    line-height:32px;
+    padding-top:10px;
 }
 
-.single-footer-widget ul li a span {
-    text-transform: lowercase;
+#contact-form .form-control:focus {
+    background:#fff;
+    border-bottom:3px solid #f9398c;
+    outline:none;
+    box-shadow:none;
+    -webkit-transition:border-color .3s ease-in;
+    transition:border-color .3s ease-in;
 }
 
-.footer-newsletter p {
-    color: #aeafc2;
-    font-size: 14px;
-    font-weight: 300;
-    margin: 0 0 15px;
+#contact-form .error-message {
+    padding:5px 0;
+    position:absolute;
+    top:-30px;
+    right:0;
+    font-size:14px;
+    font-weight:300;
+    color:#ff0000;
+    z-index:10;
 }
 
-/*hm-foot-email*/
-.hm-foot-email {
-    position: relative;
+#contact-form .error-message:before {
+    content:"\00d7";
+    font-size: 21px;
+    line-height: 21px;
+    margin-right: 5px;
 }
 
-.foot-email-box .form-control {
-    background: #26294d;
-    display: block;
-    padding: 15px 20px;
-    outline: 0 !important;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
-    border: 0;
+/*----------------------
+----- Footer ----
+------------------------*/
+
+#main-footer {
+    background: #fff;
 }
 
-.foot-email-box input[type="email"] {
-    font-size: 12px;
-    color: #666c81;
-    font-weight: 300;
+#main-footer p a {
+    padding-bottom: 40px;
+    font-size: 25px;
+    text-decoration: none;
 }
 
-.foot-email-subscribe {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100px;
-    height: 100%;
-    background: transparent;
-    color: #666c81;
-    font-size: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#main-footer p {
+    text-align: center; 
 }
 
-.foot-email-box .form-control:hover {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .4);
+.social-links {
+    list-style:none;
+    margin:0;
+    padding:0;
+    margin-bottom:30px;
 }
 
-/*hm-foot-email*/
-/*.footer-copyright */
-.footer-copyright {
-    width: 100%;
-    padding: 16px 0 17px;
-    border-top: 1px solid #434859;
+.social-links li{
+    display:inline-block;
+    margin:0 5px;
+    border-radius:3px;
+    box-shadow:0 4px 0 transparent;
+    -webkit-transition:all .3s ease-out;
+    transition:all .3s ease-out;
 }
 
-.footer-copyright p,
-.footer-copyright p a {
-    color: #a8a9bf;
-    font-size: 14px;
-    font-weight: 400;
-    /* text-transform: capitalize; */
+.social-links li a {
+    display:block;
+    color:#fff;
+    font-size:21px;
+    width:50px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    background:#509B9E;
+    border-radius:50%;
+    -webkit-transition:all .3s ease-out;
+    transition:all .3s ease-out;
 }
 
-.footer-social {
-    text-align: left;
-    width: 13em;
+.social-links li a:hover {
+    color:#fff;
+    background:#f9398c;
 }
-
-.footer-social h2{
-    text-align: left;
-}
-
-.footer-social a i {
-    color: #fff;
-    opacity: .40;
-    font-size: 16px;
-    margin: 0 0 10px;
-    -webkit-transition: .3s;
-    -moz-transition: .3s;
-    -ms-transition: .3s;
-    -o-transition: .3s;
-    transition: .3s;
-}
-
-.footer-social i:hover {
-    opacity: .70;
-}
-
-/*.footer-copyright */
 
 /*===============================
     Scroll Top
