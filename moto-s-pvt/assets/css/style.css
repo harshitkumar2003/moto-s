@@ -479,9 +479,9 @@ nav.navbar.bootsnav .navbar-toggle i {
     transition: .3s linear;
 }
 
-.single-service-icon {
-    display: inline-block;
-    color: #50616c;
+.single-service-icon svg {
+    height: 2.5em;
+    width: 2.5em;
 }
 
 .single-service-item h2 a {
@@ -510,21 +510,6 @@ nav.navbar.bootsnav .navbar-toggle i {
     margin-left: -10px;
 }
 
-.single-service-icon [class^="flaticon-"]:before,
-.single-service-icon[class*=" flaticon-"]:before,
-.single-service-icon [class^="flaticon-"]:after,
-.single-service-icon [class*=" flaticon-"]:after {
-    font-size: 60px;
-}
-
-.single-service-item:hover .single-service-icon [class^="flaticon-"]:before,
-.single-service-item:hover .single-service-icon [class*=" flaticon-"]:before,
-.single-service-item:hover .single-service-icon [class^="flaticon-"]:after,
-.single-service-item:hover .single-service-icon [class*=" flaticon-"]:after {
-    color: #fff;
-}
-
-
 .single-service-item:hover h2 a,
 .single-service-item:hover p {
     color: #fff;
@@ -534,9 +519,12 @@ nav.navbar.bootsnav .navbar-toggle i {
     background: #fff;
 }
 
-.single-service-item:hover {
-    background: #4e4ffa;
-    border: 1px solid #4e4ffa;
+.single-service-item:hover,
+.single-service-icon svg:hover {
+    background: #e8b900;
+    border: 1px solid #e0ce03;
+    filter: brightness(100%);
+    -webkit-filter: invert(100%);
 }
 
 
@@ -944,16 +932,17 @@ nav.navbar.bootsnav .navbar-toggle i {
     margin-right: 5px;
 }
 
-.contact-btn svg{
+.contact-btn svg {
     position: relative;
     height: 1.5em;
     width: 1.5em;
-    left: .2em;  
+    left: .2em;
     top: .2em;
     margin-right: 15px;
     filter: brightness(100%);
     -webkit-filter: invert(100%);
 }
+
 .contact-btn {
     padding: 10px 30px;
     color: #efefef;
@@ -970,7 +959,8 @@ nav.navbar.bootsnav .navbar-toggle i {
     opacity: .8;
 }
 
-.contact-btn:focus,:active {
+.contact-btn:focus,
+:active {
     color: #fff;
 }
 
