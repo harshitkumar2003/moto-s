@@ -162,7 +162,7 @@ body {
     bottom: 0;
     left: 50%;
     margin-left: -42px;
-    background: #4e4ffa;
+    background: crimson;
 }
 
 .section-header p {
@@ -215,7 +215,7 @@ nav.navbar.bootsnav {
 .navbar-header a.navbar-brand:focus {
     display: inline-block;
     color: crimson;
-    font-size: 20px;
+    font-size: 35px;
     letter-spacing: 3px;
     font-family: 'Rufina', serif;
     font-weight: 900;
@@ -543,6 +543,16 @@ nav.navbar.bootsnav .navbar-toggle i {
 /*-------------------------------------
         6. New-bikes
 --------------------------------------*/
+
+.new-bikes img {
+    scale: .8;
+}
+
+.new-bikes img:hover {
+    scale: 1.2;
+    cursor: zoom-in;
+}
+
 .new-bikes {
     background: #f8f9fb;
     padding: 112px 0 120px;
@@ -614,7 +624,19 @@ nav.navbar.bootsnav .navbar-toggle i {
 /*.single-featured-bikes*/
 .featured-img-box {
     border: 1px solid rgb(235, 235, 235);
-    box-shadow: 0 20px 30px 0px rgba(0, 1, 193, .2);
+    box-shadow: 0 5px 5px 0px rgba(131, 131, 133, 0.2);
+}
+
+.featured-img-box:hover {
+    border: 1px solid rgb(235, 235, 235);
+    box-shadow: 0 35px 55px 0px rgba(1, 4, 157, 0.212);
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    scale: 2.1;
+    cursor: zoom-in;
 }
 
 .featured-bikes-img {
@@ -628,7 +650,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .featured-model-info {
-    padding: 12px 7px;
+    padding: 12px 6px;
 }
 
 .featured-model-info p {
@@ -684,7 +706,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     padding: 50px 30px 57px;
     text-align: center;
     border: 1px solid transparent;
-    box-shadow: 0 10px 20px 0px rgba(175, 175, 176, 0.986);
+    box-shadow: 0 20px 30px 0px rgba(175, 175, 176, 0.986);
     overflow-x: hidden;
     -webkit-transition: .3s;
     -moz-transition: .3s;
