@@ -33,7 +33,7 @@
 
 	.model-search-content .col-sm-12 {padding: 0 40px;}
 	.single-model-search:last-child {margin-bottom: 30px;}
-	.welcome-btn.model-search-btn {margin: 0;}
+	.welcome-btn.model-search-btn {position: static;}
 
 	.single-new-bikes-item {max-width: 450px; margin: 0 auto;}
 	.new-bikes-txt {margin: 30px 0;}
