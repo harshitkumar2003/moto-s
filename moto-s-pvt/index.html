@@ -128,149 +128,156 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="model-search-content">
-						<div class="row">
-							<div class="col-md-offset-1 col-md-2 col-sm-12">
-								<div class="single-model-search">
-									<h2>select year</h2>
-									<div class="model-select-icon">
-										<select class="form-control">
-											<option value="default">year</option><!-- /.option-->
-											<option value="2021">2021</option><!-- /.option-->
-											<option value="2022">2022</option><!-- /.option-->
-											<option value="2023">2023</option><!-- /.option-->
-											<option value="2024">2024</option><!-- /.option-->
-										</select><!-- /.select-->
-									</div><!-- /.model-select-icon -->
-								</div><!-- /.single-model-search -->
+						<h1>Bike Search</h1>
+						<form action="../search.php">
+							<div class="row">
+								<div class="col-md-offset-1 col-md-2 col-sm-12">
+									<div class="single-model-search">
+										<label for="year">
+											<h2>select year</h2>
+										</label>
+										<div class="model-select-icon">
+											<select class="form-control">
+												<option value="default">year</option><!-- /.option-->
+												<option value="2021">2021</option><!-- /.option-->
+												<option value="2022">2022</option><!-- /.option-->
+												<option value="2023">2023</option><!-- /.option-->
+												<option value="2024">2024</option><!-- /.option-->
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div><!-- /.single-model-search -->
 
-								<div class="single-model-search">
-									<h2>body style</h2>
-									<div class="model-select-icon">
-										<select class="form-control">
-											<option value="default">style</option><!-- /.option-->
-											<option value="Cruiser">Cruiser</option><!-- /.option-->
-											<option value="Touring">Touring</option><!-- /.option-->
-											<option value="Standard">Standard</option><!-- /.option-->
-											<option value="Adventure">Adventure</option><!-- /.option-->
+									<div class="single-model-search">
+										<label for="bodyStyle">
+											<h2>body style</h2>
+										</label>
+										<div class="model-select-icon">
+											<select class="form-control">
+												<option value="default">style</option><!-- /.option-->
+												<option value="Cruiser">Cruiser</option><!-- /.option-->
+												<option value="Touring">Touring</option><!-- /.option-->
+												<option value="Standard">Standard</option><!-- /.option-->
+												<option value="Adventure">Adventure</option><!-- /.option-->
 
-										</select><!-- /.select-->
-									</div><!-- /.model-select-icon -->
-								</div>
-							</div>
-
-							<div class="col-md-offset-1 col-md-2 col-sm-12">
-								<div class="single-model-search">
-									<h2>select make</h2>
-									<div class="model-select-icon">
-										<select class="form-control">
-											<option value="default">Make</option><!-- /.option-->
-											<option value="BMW">BMW</option><!-- /.option-->
-											<option value="Moto Guzzi">Moto Guzzi</option><!-- /.option-->
-											<option value="Indian">Indian</option><!-- /.option-->
-											<option value="Triumph">Triumph</option><!-- /.option-->
-
-										</select><!-- /.select-->
-									</div><!-- /.model-select-icon -->
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div>
 								</div>
 
-								<div class="single-model-search">
-									<h2>Bike condition</h2>
-									<div class="model-select-icon">
-										<select class="form-control">
-											<option value="default">condition</option><!-- /.option-->
-											<option value="New">New</option><!-- /.option-->
-											<option value="High Mileage">High Mileage</option><!-- /.option-->
-											<option value="Rebuilt">Rebuilt </option><!-- /.option-->
-											<option value="Fair">Fair</option><!-- /.option-->
-										</select><!-- /.select-->
-									</div><!-- /.model-select-icon -->
+								<div class="col-md-offset-1 col-md-2 col-sm-12">
+									<div class="single-model-search">
+										<label for="make">
+											<h2>select make</h2>
+										</label>
+										<div class="model-select-icon">
+											<select class="form-control">
+												<option value="default">Make</option><!-- /.option-->
+												<option value="BMW">BMW</option><!-- /.option-->
+												<option value="Moto Guzzi">Kawasaki</option><!-- /.option-->
+												<option value="Indian">Harley Davidson</option><!-- /.option-->
+												<option value="Triumph">Triumph</option><!-- /.option-->
+
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div>
+
+									<div class="single-model-search">
+										<label for="bikeCondition">
+											<h2>Bike condition</h2>
+										</label>
+										<div class="model-select-icon">
+											<select class="form-control">
+												<option value="default">condition</option><!-- /.option-->
+												<option value="New">New</option><!-- /.option-->
+												<option value="High Mileage">High Mileage</option><!-- /.option-->
+												<option value="Rebuilt">Rebuilt </option><!-- /.option-->
+												<option value="Fair">Fair</option><!-- /.option-->
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div>
 								</div>
-							</div>
 
-							<div class="col-md-offset-1 col-md-2 col-sm-12">
-								<div class="single-model-search">
-									<h2>select model</h2>
-									<div class="model-select-icon">
-										<select class="form-control">
-											<option value="default">Select Model</option>
+								<div class="col-md-offset-1 col-md-2 col-sm-12">
+									<div class="single-model-search">
+										<label for="model">
+											<h2>select model</h2>
+										</label>
+										<div class="model-select-icon">
+											<select class="form-control">
+												<option value="default">Select Model</option>
 
-											<!-- Honda -->
-											<optgroup label="BMW">
-												<option value="S1000RR">S1000RR</option>
-												<option value="R nineT">R nineT</option>
-												<option value="R 1250 GS">R 1250 GS</option>
-												<option value="K 1600 GTL">K 1600 GTL</option>
-											</optgroup>
+												<!-- BMW -->
+												<optgroup label="BMW">
+													<option value="S1000RR">S1000RR</option>
+													<option value="R nineT">R nineT</option>
+													<option value="R 1250 GS">R 1250 GS</option>
+													<option value="K 1600 GTL">K 1600 GTL</option>
+												</optgroup>
 
-											<!-- Yamaha -->
-											<optgroup label="Yamaha">
-												<option value="yzf-r1">YZF-R1</option>
-												<option value="mt-07">MT-07</option>
-												<option value="tenere-700">Tenere 700</option>
-												<option value="star-venture">Star Venture</option>
-											</optgroup>
+												<!-- Kawasaki -->
+												<optgroup label="Kawasaki">
+													<option value="ninja-zx-6r">Ninja ZX-6R</option>
+													<option value="z900rs">Z900RS</option>
+													<option value="versys-650">Versys 650</option>
+													<option value="vulcan-1700 Vaquero">Vulcan 1700 Vaquero</option>
+												</optgroup>
 
-											<!-- Kawasaki -->
-											<optgroup label="Kawasaki">
-												<option value="ninja-zx-6r">Ninja ZX-6R</option>
-												<option value="z900rs">Z900RS</option>
-												<option value="versys-650">Versys 650</option>
-												<option value="vulcan-1700 Vaquero">Vulcan 1700 Vaquero</option>
-											</optgroup>
+												<!-- Harley-Davidson -->
+												<optgroup label="Harley-Davidson">
+													<option value="sportster">Sportster</option>
+													<option value="street-glide">Street Glide</option>
+													<option value="pan-america">Pan America</option>
+													<option value="pan-america">Fat Boy 114</option>
+												</optgroup>
 
-											<!-- Triumph -->
-											<optgroup label="Triumph">
-												<option value="Daytona">Daytona</option>
-												<option value="Street Triple">Street Triple</option>
-												<option value="Tiger">Tiger</option>
-												<option value="Rocket III">Rocket III</option>
-											</optgroup>
+												<!-- Triumph -->
+												<optgroup label="Triumph">
+													<option value="Daytona">Daytona</option>
+													<option value="Street Triple">Street Triple</option>
+													<option value="Tiger">Tiger</option>
+													<option value="Rocket III">Rocket III</option>
+												</optgroup>
 
-											<!-- Harley-Davidson -->
-											<optgroup label="Harley-Davidson">
-												<option value="sportster">Sportster</option>
-												<option value="street-glide">Street Glide</option>
-												<option value="pan-america">Pan America</option>
-											</optgroup>
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div><!-- single-model-select -->
 
-										</select><!-- /.select-->
-									</div><!-- /.model-select-icon -->
-								</div><!-- single-model-select -->
+									<div class="single-model-search">
+										<label for="price">
+											<h2>select price</h2>
+										</label>
+										<div class="model-select-icon">
+											<select class="form-control">
+												<option value="default">Select Price Range</option>
 
-								<div class="single-model-search">
-									<h2>select price</h2>
-									<div class="model-select-icon">
-										<select class="form-control">
-											<option value="default">Select Price Range</option>
+												<optgroup label="Under INR 1,00,000">
+													<option value="under-95k">Under INR 95,000</option>
+													<option value="1L-2L">INR 1,00,000 - INR 2,10,000</option>
+												</optgroup>
 
-											<optgroup label="Under INR 1,00,000">
-												<option value="under-95k">Under INR 95,000</option>
-												<option value="1L-2L">INR 1,00,000 - INR 2,10,000</option>
-											</optgroup>
+												<optgroup label="INR 2,10,000 - INR 22,50,000">
+													<option value="2L-5L">INR 2,10,000 - INR 5,55,000</option>
+													<option value="5L-12L">INR 5,55,000 - INR 12,00,000</option>
+													<option value="12L-22L">INR 12,00,000 - INR 22,50,000</option>
+												</optgroup>
 
-											<optgroup label="INR 2,10,000 - INR 22,50,000">
-												<option value="2L-5L">INR 2,10,000 - INR 5,55,000</option>
-												<option value="5L-12L">INR 5,55,000 - INR 12,00,000</option>
-												<option value="12L-22L">INR 12,00,000 - INR 22,50,000</option>
-											</optgroup>
-
-											<optgroup label="Over INR 22,50,000">
-												<option value="22L-30L">INR 22,50,000 - INR 30,00,000</option>
-												<option value="30L-35L">INR 30,00,000 - INR 35,00,000</option>
-												<option value="over-35L">Over INR 35,00,000</option>
-											</optgroup>
-										</select>
+												<optgroup label="Over INR 22,50,000">
+													<option value="22L-30L">INR 22,50,000 - INR 30,00,000</option>
+													<option value="30L-35L">INR 30,00,000 - INR 35,00,000</option>
+													<option value="over-35L">Over INR 35,00,000</option>
+												</optgroup>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-2 col-sm-12">
+									<div class="single-model-search text-center">
+										<a href="https://noaction.php"></a><button class="welcome-btn model-search-btn"
+											onclick="window.location.href='noaction.php'">search</button>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-2 col-sm-12">
-								<div class="single-model-search text-center">
-									<a href="https://noaction.php"></a><button class="welcome-btn model-search-btn"
-										onclick="window.location.href='noaction.php'">search</button>
-								</div>
-							</div>
-						</div>
-
+						</form>
 					</div>
 				</div>
 			</div>

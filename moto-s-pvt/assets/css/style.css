@@ -403,9 +403,18 @@ nav.navbar.bootsnav .navbar-toggle i {
     border-radius: 5px;
 }
 
+.model-search-content h1 {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    align-items: center;
+    margin: 10px 0 18px;
+}
+
 /*.single-model-search*/
 .single-model-search {
     margin-bottom: 4em;
+    margin-top: 2em;
 }
 
 .single-model-search:last-child {
@@ -426,10 +435,13 @@ nav.navbar.bootsnav .navbar-toggle i {
 
 .model-select-icon .form-control {
     outline: 0 !important;
-    box-shadow: 0 10px 40px 0px rgba(2, 2, 6, 0.2);
+    box-shadow: 0 2px 40px 0px rgba(2, 2, 6, 0.2);
     border: 1px solid #f8f8f8;
-    background: #f8f8f8;
+    background: #ffffff;
     height: 60px;
+}
+.model-select-icon .form-control:hover {
+    box-shadow: 10px 20px 40px 20px rgba(2, 2, 6, 0.2);
 }
 
 .model-select-icon select {
