@@ -314,6 +314,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 /*-------------------------------------
         3.  Welcome-hero
 --------------------------------------*/
+
 .welcome-hero {
     position: relative;
     background: url(../images/welcome-hero/bg.png)no-repeat;
@@ -343,7 +344,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 /*.welcome-hero-txt*/
 .welcome-hero-txt {
     text-align: center;
-    padding: 250px 0 372px;
+    padding: 250px 0 250px;
 }
 
 .welcome-hero-txt h2 {
@@ -393,7 +394,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .model-search-content {
-    padding: 40px 0;
+    padding: 30px 0;
     background: #f5f1f1;
     box-shadow: 0 20px 40px 0px rgba(38, 40, 64, .2);
     position: absolute;
@@ -408,12 +409,12 @@ nav.navbar.bootsnav .navbar-toggle i {
     font-weight: 900;
     text-align: center;
     align-items: center;
-    margin: 10px 0 18px;
+    margin: 2px 0 5px;
 }
 
 /*.single-model-search*/
 .single-model-search {
-    margin-bottom: 4em;
+    margin-bottom: 2em;
     margin-top: 2em;
 }
 
@@ -440,6 +441,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     background: #ffffff;
     height: 60px;
 }
+
 .model-select-icon .form-control:hover {
     box-shadow: 10px 20px 40px 20px rgba(2, 2, 6, 0.2);
 }
@@ -615,6 +617,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 --------------------------------------*/
 .featured-bikes {
     padding: 112px 0 120px;
+    background-color: whitesmoke;
 }
 
 .featured-bikes-content {
@@ -624,7 +627,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 /*.single-featured-bikes*/
 .featured-img-box {
     border: 1px solid rgb(235, 235, 235);
-    box-shadow: 0 5px 5px 0px rgba(131, 131, 133, 0.2);
+    box-shadow: 10px 10px 20px 8px rgba(131, 131, 133, 0.2);
 }
 
 .featured-img-box:hover {
@@ -650,7 +653,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .featured-model-info {
-    padding: 12px 6px;
+    padding: 12px 4px;
 }
 
 .featured-model-info p {
@@ -820,6 +823,52 @@ nav.navbar.bootsnav .navbar-toggle i {
 /*-------------------------------------
         10. Blog
 --------------------------------------*/
+.blog {
+    background-color: #964aff;
+    width: 100%;
+    text-align: center;
+}
+
+.blog h1 {
+    margin: 120px 0 120px;
+}
+
+.blog {
+    background-color: #9e99a5;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.blog-post {
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.blog-content {
+    font-size: 16px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    max-height: 100px;
+    transition: max-height 0.5s ease;
+}
+
+.myBtn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
 
 /*-------------------------------------
         11. Contact
