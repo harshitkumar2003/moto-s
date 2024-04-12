@@ -314,24 +314,30 @@ nav.navbar.bootsnav .navbar-toggle i {
 /*-------------------------------------
         3.  Welcome-hero
 --------------------------------------*/
+.video-background {
+    z-index: -1;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
-.welcome-hero {
+/* .welcome-hero {
     position: relative;
     background: url(../images/welcome-hero/bg.png)no-repeat;
     background-position: center;
     background-size: cover;
     z-index: 1;
-}
+} */
 
-.welcome-hero:before {
+/* .welcome-hero:before {
     position: absolute;
     content: "";
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    background: rgba(4, 4, 5, 0.6);
-}
+    height: 101.9rem;
+    background: rgb(225, 222, 222);
+} */
 
 .header-area {
     position: absolute;
@@ -345,6 +351,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 .welcome-hero-txt {
     text-align: center;
     padding: 250px 0 250px;
+    z-index: +1;
 }
 
 .welcome-hero-txt h2 {
@@ -402,6 +409,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     width: 100%;
     /* height: 25em; */
     border-radius: 5px;
+    z-index: +1;
 }
 
 .model-search-content h1 {
@@ -701,7 +709,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 --------------------------------------*/
 .clients-say {
     padding: 115px 0 80px;
-    background: #dbdada90;
+    background: #f8f7f7d6;
 }
 
 /*single-testimonial-box */
