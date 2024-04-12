@@ -1,9 +1,9 @@
 <?php
 // Database configuration
-$host = 'localhost';
+$host = '5501';
 $dbname = 'bikes';
-$user = 'username';
-$password = 'password';
+$user = 'harshit';
+$password = 'kumar';
 
 // Create a newdatabase connection
 $db = new mysqli($host, $user, $password, $dbname);
@@ -12,3 +12,5 @@ $db = new mysqli($host, $user, $password, $dbname);
 if ($db->connect_error) {
     die("Connection failed: " . $db->connect_error);
 }
+echo "Connected successfully";
+?>
