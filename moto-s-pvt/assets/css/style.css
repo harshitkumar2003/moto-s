@@ -316,9 +316,11 @@ nav.navbar.bootsnav .navbar-toggle i {
 --------------------------------------*/
 .video-background {
     z-index: -1;
-    position: fixed;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    /* height: 100%; */
+    width: 100%;
+    position: absolute;
 }
 
 /* .welcome-hero {
@@ -329,15 +331,15 @@ nav.navbar.bootsnav .navbar-toggle i {
     z-index: 1;
 } */
 
-/* .welcome-hero:before {
+.welcome-hero:before {
     position: absolute;
     content: "";
     top: 0;
     left: 0;
     width: 100%;
-    height: 101.9rem;
-    background: rgb(225, 222, 222);
-} */
+    /* height: 100%; */
+    background: rgba(0, 0, 0, 0.406);
+}
 
 .header-area {
     position: absolute;
@@ -373,8 +375,8 @@ nav.navbar.bootsnav .navbar-toggle i {
 
 .register {
     display: inline-block;
-    width: 230px;
-    height: 60px;
+    width: 200px;
+    height: 50px;
     background: black;
     color: #fff;
     border-radius: 3px;
@@ -401,29 +403,30 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .model-search-content {
-    padding: 30px 0;
+
+    padding: 10px 0 20px;
     background: #f5f1f1;
     box-shadow: 0 20px 40px 0px rgba(38, 40, 64, .2);
-    position: absolute;
+    position: relative;
+    left: 12rem;
     bottom: -150px;
-    width: 100%;
-    /* height: 25em; */
-    border-radius: 5px;
+    width: 80%;
+    border-radius: 1px;
     z-index: +1;
 }
 
 .model-search-content h1 {
     font-size: 24px;
-    font-weight: 900;
+    font-weight: 600;
     text-align: center;
     align-items: center;
-    margin: 2px 0 5px;
+    margin: 2px 0 2px;
 }
 
 /*.single-model-search*/
 .single-model-search {
-    margin-bottom: 2em;
-    margin-top: 2em;
+    margin-bottom: 16px;
+    margin-top: 16px;
 }
 
 .single-model-search:last-child {
@@ -431,10 +434,10 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .single-model-search h2 {
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
     text-transform: capitalize;
-    margin-bottom: 20px;
+    margin-bottom: 1px;
 }
 
 /*model-select-icon*/
@@ -447,7 +450,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     box-shadow: 0 2px 40px 0px rgba(2, 2, 6, 0.2);
     border: 1px solid #f8f8f8;
     background: #ffffff;
-    height: 60px;
+    height: 32px;
 }
 
 .model-select-icon .form-control:hover {
@@ -455,18 +458,18 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .model-select-icon select {
-    font-size: 16px;
+    font-size: 14px;
     color: #888f9d;
     text-transform: capitalize;
 }
 
 .welcome-btn.model-search-btn {
     position: relative;
-    top: 6.3em;
-    left: 2em;
+    top: 2.9em;
+    left: 1.5em;
     display: inline-block;
-    width: 11em;
-    height: 3em;
+    width: 9em;
+    height: 2.5em;
     background: #262525;
     color: #fff;
     border-radius: 3px;
@@ -483,7 +486,7 @@ nav.navbar.bootsnav .navbar-toggle i {
         5. Service 
 --------------------------------------*/
 .service {
-    padding: 260px 0 50px;
+    padding: 200px 0 50px;
     background-color: #edebeb;
 }
 
