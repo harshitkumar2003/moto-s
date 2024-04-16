@@ -834,10 +834,12 @@ nav.navbar.bootsnav .navbar-toggle i {
 
 .blog h1 {
     margin: 120px 0 120px;
+    display: block;
 }
 
 .blog {
-    background-color: #9e99a5;
+    overflow: hidden;
+    background-color: #312e2e;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -845,11 +847,19 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .blog-post {
-    width: 50%;
-    margin-bottom: 20px;
+    color: #efefef;
+    background-color: #0955d7;
+    width: 100%;
+    margin: 20px 10px 20px;
     padding: 20px;
     border: 1px solid #ccc;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 8px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post:hover {
+    background-color: #10184b;
+    box-shadow: 15px 18px 15px rgba(248, 243, 243, 0.1);
+
 }
 
 .blog-title {
@@ -863,6 +873,10 @@ nav.navbar.bootsnav .navbar-toggle i {
     overflow: hidden;
     max-height: 100px;
     transition: max-height 0.5s ease;
+}
+
+.blog-content ,blog-title{
+    color: #ddd;
 }
 
 .myBtn {
