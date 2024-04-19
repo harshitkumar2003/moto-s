@@ -620,7 +620,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 --------------------------------------*/
 .featured-bikes {
     padding: 112px 0 120px;
-    background-color: whitesmoke;
+    background-color: rgb(237, 233, 233);
 }
 
 .featured-bikes-content {
@@ -704,7 +704,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 --------------------------------------*/
 .clients-say {
     padding: 115px 0 80px;
-    background: #f8f7f7d6;
+    background: #d3cfcfd6;
 }
 
 /*single-testimonial-box */
@@ -712,7 +712,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     padding: 50px 30px 57px;
     text-align: center;
     border: 1px solid transparent;
-    box-shadow: 0 20px 30px 0px rgba(175, 175, 176, 0.986);
+    box-shadow: 0 20px 40px 0px rgba(175, 175, 176, 0.986);
     overflow-x: hidden;
     -webkit-transition: .3s;
     -moz-transition: .3s;
@@ -823,69 +823,6 @@ nav.navbar.bootsnav .navbar-toggle i {
     border-radius: 0;
 }
 
-/*-------------------------------------
-        10. Blog
---------------------------------------*/
-.blog {
-    background-color: #964aff;
-    width: 100%;
-    text-align: center;
-}
-
-.blog h1 {
-    margin: 120px 0 120px;
-    display: block;
-}
-
-.blog {
-    overflow: hidden;
-    background-color: #312e2e;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.blog-post {
-    color: #efefef;
-    background-color: #0955d7;
-    width: 100%;
-    margin: 20px 10px 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    box-shadow: 5px 8px 5px rgba(0, 0, 0, 0.1);
-}
-
-.blog-post:hover {
-    background-color: #10184b;
-    box-shadow: 15px 18px 15px rgba(248, 243, 243, 0.1);
-
-}
-
-.blog-title {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.blog-content {
-    font-size: 16px;
-    margin-bottom: 20px;
-    overflow: hidden;
-    max-height: 100px;
-    transition: max-height 0.5s ease;
-}
-
-.blog-content ,blog-title{
-    color: #ddd;
-}
-
-.myBtn {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
 
 /*-------------------------------------
         11. Contact
