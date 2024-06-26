@@ -1,24 +1,17 @@
-document.addEventListener("DOMContentLoaded", function () {
-    // Function to fetch and display data based on selected options
-    function fetchData() {
-        // Fetch data based on selected options using AJAX or fetch API
-        // For demonstration purposes, let's assume the data is fetched from a PHP file
-        const url = `year=${document.getElementById('year').value}&make=${document.getElementById('make').value}&model=${document.getElementById('model').value}&style=${document.getElementById('style').value}&price=${document.getElementById('price').value}&condition=${document.getElementById('condition').value}`;
+document.getElementById('result').addEventListener('click', function () {
+  // Get the selected values from the dropdown menus
+  var year = document.getElementById('year').value;
+  var style = document.getElementById('style').value;
+  var make = document.getElementById('make').value;
+  var condition = document.getElementById('condition').value;
+  var model = document.getElementById('model').value;
+  var price = document.getElementById('price').value;
 
-        fetch(url)
-            .then(response => response.text())
-            .then(data => {
-                // Display the fetched data in the 'result' div
-                document.getElementById('result').innerHTML = data;
-            })
-            .catch(error => console.error('Error:', error));
-    
-        }
-    // Event listeners for select dropdowns
-    document.getElementById('year').addEventListener('change', fetchData);
-    document.getElementById('make').addEventListener('change', fetchData);
-    document.getElementById('model').addEventListener('change', fetchData);
-    document.getElementById('style').addEventListener('change', fetchData);
-    document.getElementById('price').addEventListener('change', fetchData);
-    document.getElementById('condition').addEventListener('change', fetchData);
+  // Create a string to display the selected values
+  var result = 'You have selected: <br> Year: ' + year + '<br> Style: ' + style + '<br> Make: ' + make + '<br> Condition: ' + condition + '<br> Model: ' + model + '<br> Price: ' + price;
+
+  // Open a new page and display the result
+  var new_page = window.open();
+  new_page.document.write(result);
+  new_page.document.close();
 });
