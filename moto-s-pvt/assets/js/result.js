@@ -11,6 +11,8 @@ document.getElementById('result').addEventListener('click', function () {
   var result = 'You have selected: <br> Year: ' + year + '<br> Style: ' + style + '<br> Make: ' + make + '<br> Condition: ' + condition + '<br> Model: ' + model + '<br> Price: ' + price;
 
   // Open a new page and display the result
+  // for the neww page 
+  // and showing the result 
   var new_page = window.open();
   new_page.document.write(result);
   new_page.document.close();
