@@ -28,8 +28,6 @@ Happy coding, and enjoy the ride! 🏍️🌟# Project-1-Frontend-Page
 - HTML5
 - CSS3
 - JavaScript (for future enhancements)
-- SQL
-- PHP
 - AI
 - Font Awesome (for icons)
 - Google Play Icon (for icons )
