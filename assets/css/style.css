@@ -630,12 +630,12 @@ nav.navbar.bootsnav .navbar-toggle i {
 .featured-img-box:hover {
     border: 1px solid rgb(235, 235, 235);
     box-shadow: 0 35px 55px 0px rgba(1, 4, 157, 0.212);
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
-    transition: .5s;
-    scale: 2.1;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    scale: 1.1;
     cursor: zoom-in;
 }
 
