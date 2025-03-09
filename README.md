@@ -1,6 +1,8 @@
 # Moto-S Website 🏍️💨
 
-Welcome to the Moto-S website project! This repository contains the source code for a motorcycle company's website, featuring a sleek design and a user-friendly interface. Buckle up and get ready to explore the world of high-performance bikes! 🔥
+Welcome to the Moto-S website project! This repository contains the source code for a motorcycle company's website, featuring a sleek design and a user-friendly interface. Buckle up and get ready to explore the world of high-performance bikes!🔥
+
+### Follow this link to run on your PC https://moto-s.vercel.app/
 
 ## Acknowledgments 🙏
 
@@ -26,8 +28,6 @@ Happy coding, and enjoy the ride! 🏍️🌟# Project-1-Frontend-Page
 - HTML5
 - CSS3
 - JavaScript (for future enhancements)
-- SQL
-- PHP
 - AI
 - Font Awesome (for icons)
 - Google Play Icon (for icons )
