@@ -73,8 +73,8 @@
 					<div class="model-search-content">
 						<h1>Bike Search</h1> <!-- search heading -->
 						<div class="row">
-							<div class="col-md-offset-1 col-md-2 col-sm-12">
-
+							
+							<div class="col-md-offset-1 col-md-2 col-sm-12"> <!-- column 1 -->
 								<div class="single-model-search"> <!-- selection for year  -->
 									<label for="year"> 
 										<h2>select year</h2>
@@ -92,113 +92,100 @@
 
 								<div class="single-model-search"> <!-- selection for body style -->
 									<label for="bodyStyle">
-									
 										<h2>body style</h2>
 									</label>
 									<div class="model-select-icon">
 										<select class="form-control" id="style">
-											<!-- options for body style -->
 											<option value="default">style</option><!-- /.option-->
 											<option value="Cruiser">Cruiser</option><!-- /.option-->
 											<option value="Touring">Touring</option><!-- /.option-->
 											<option value="Standard">Standard</option><!-- /.option-->
 											<option value="Adventure">Adventure</option><!-- /.option-->
-
-										</select><!-- /.select-->
-									</div><!-- /.model-select-icon -->
+										</select>
+									</div>
 								</div>
 							</div>
 
-							<div class="col-md-offset-1 col-md-2 col-sm-12">
-								<div class="single-model-search">
+							<div class="col-md-offset-1 col-md-2 col-sm-12"> <!-- column 2 -->
+								<div class="single-model-search"> <!-- selection for  make  -->
 									<label for="make">
-										<!-- selection for what you user want to make  -->
 										<h2>select make</h2>
 									</label>
 									<div class="model-select-icon">
 										<select class="form-control" id="make">
-											<!-- options for mske  -->
 											<option value="default">Make</option><!-- /.option-->
 											<option value="BMW">BMW</option><!-- /.option-->
 											<option value="Moto Guzzi">Kawasaki</option><!-- /.option-->
 											<option value="Indian">Harley Davidson</option><!-- /.option-->
 											<option value="Triumph">Triumph</option><!-- /.option-->
-
-										</select><!-- /.select-->
-									</div><!-- /.model-select-icon -->
+										</select>
+									</div>
 								</div>
 
-								<div class="single-model-search">
+								<div class="single-model-search"> <!-- selection for bike condition -->
 									<label for="bikeCondition">
-										<!-- selection for bike condition -->
 										<h2>Bike condition</h2>
 									</label>
 									<div class="model-select-icon">
 										<select class="form-control" id="condition">
-											options for bike condition
 											<option value="default">condition</option><!-- /.option-->
 											<option value="New">New</option><!-- /.option-->
 											<option value="High Mileage">High Mileage</option><!-- /.option-->
 											<option value="Rebuilt">Rebuilt </option><!-- /.option-->
 											<option value="Fair">Fair</option><!-- /.option-->
-										</select><!-- /.select-->
-									</div><!-- /.model-select-icon -->
+										</select>
+									</div>
 								</div>
 							</div>
-
-							<div class="col-md-offset-1 col-md-2 col-sm-12">
-								<div class="single-model-search">
+							<div class="col-md-offset-1 col-md-2 col-sm-12"> <!-- column 3 -->
+								<div class="single-model-search"><!-- selection for model -->
 									<label for="model">
 										<h2>select model</h2>
 									</label>
 									<div class="model-select-icon">
 										<select class="form-control" id="model">
 											<option value="default">Select Model</option>
-											<!-- options for model -->
-											<!-- BMW -->
-											<optgroup label="BMW">
+
+											<optgroup label="BMW"><!-- BMW -->
 												<option value="S1000RR">S1000RR</option>
 												<option value="R nineT">R nineT</option>
 												<option value="R 1250 GS">R 1250 GS</option>
 												<option value="K 1600 GTL">K 1600 GTL</option>
 											</optgroup>
 
-											<!-- Kawasaki -->
-											<optgroup label="Kawasaki">
+											<optgroup label="Kawasaki"><!-- Kawasaki -->
 												<option value="ninja-zx-6r">Ninja ZX-6R</option>
 												<option value="z900rs">Z900RS</option>
 												<option value="versys-650">Versys 650</option>
 												<option value="vulcan-1700 Vaquero">Vulcan 1700 Vaquero</option>
 											</optgroup>
 
-											<!-- Harley-Davidson -->
-											<optgroup label="Harley-Davidson">
+											
+											<optgroup label="Harley-Davidson"><!-- Harley-Davidson -->
 												<option value="sportster">Sportster</option>
 												<option value="street-glide">Street Glide</option>
 												<option value="pan-america">Pan America</option>
 												<option value="pan-america">Fat Boy 114</option>
 											</optgroup>
 
-											<!-- Triumph -->
-											<optgroup label="Triumph">
+										
+											<optgroup label="Triumph"><!-- Triumph -->
 												<option value="Daytona">Daytona</option>
 												<option value="Street Triple">Street Triple</option>
 												<option value="Tiger">Tiger</option>
 												<option value="Rocket III">Rocket III</option>
 											</optgroup>
 
-										</select><!-- /.select-->
-									</div><!-- /.model-select-icon -->
-								</div><!-- single-model-select -->
+										</select>
+									</div>
+								</div>
 
-								<div class="single-model-search">
+								<div class="single-model-search"> <!-- selection for price -->
 									<label for="price">
-										<!-- selection for price -->
 										<h2>select price</h2>
 									</label>
 									<div class="model-select-icon">
 										<select class="form-control" id="price">
-											<!-- options for price rsnge -->
 											<option value="default">Select Price Range</option>
 
 											<optgroup label="Under INR 1,00,000">
@@ -221,20 +208,20 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-2 col-sm-12">
+
+							<div class="col-md-2 col-sm-12"><!-- button for search of bike  -->
 								<div class="single-model-search text-center">
-									<!-- button for search of bike which one user want  -->
 									<button class="welcome-btn model-search-btn" id="result">search</button>
 								</div>
 							</div>
+
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- </div> -->
-	</section><!--/.welcome-hero-->
-	<!--welcome-hero end -->
+	</section> <!--welcome-hero end -->
+	
 
 
 	<!--service start -->
