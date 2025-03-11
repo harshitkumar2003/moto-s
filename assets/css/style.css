@@ -659,7 +659,6 @@ nav.navbar.bootsnav .navbar-toggle i {
     font-size: 13px;
 }
 
-/*.single-featured-bikes*/
 
 /*-------------------------------------       
         8. Clients-say 
@@ -669,8 +668,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     background: #d3cfcfd6;
 }
 
-/*single-testimonial-box */
-.single-testimonial-box {
+.single-testimonial-box {/*single-testimonial-box */
     padding: 50px 30px 57px;
     text-align: center;
     border: 1px solid transparent;
