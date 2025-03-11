@@ -681,8 +681,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     transition: .3s;
 }
 
-/*testimonial-description*/
-.clients-say .testimonial-carousel .col-sm-3,
+.clients-say .testimonial-carousel .col-sm-3,/*testimonial-description*/
 .clients-say .testimonial-carousel .col-xs-12 {
     width: 100%;
     height: auto;
