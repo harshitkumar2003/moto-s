@@ -181,9 +181,8 @@ nav.navbar.bootsnav {
 }
 
 /*.navbar-brand*/
-.navbar-header a img {
+.navbar-header a img { /* logo do not show if display none */
     display: none;
-    /* logo do not show if display none */
     position: relative;
     left: -2em;
     top: -1.1em;
