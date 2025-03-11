@@ -577,12 +577,11 @@ nav.navbar.bootsnav .navbar-toggle i {
     margin-top: 62px;
 }
 
-/*.owl-dots */
 
 /*-------------------------------------
         7. Featured-bikes
 --------------------------------------*/
-.featured-bikes {
+.featured-bikes {/*.single-featured-bikes*/
     padding: 112px 0 120px;
     background-color: rgb(237, 233, 233);
 }
@@ -591,7 +590,6 @@ nav.navbar.bootsnav .navbar-toggle i {
     padding-top: 96px;
 }
 
-/*.single-featured-bikes*/
 .featured-img-box {
     border: 1px solid rgb(235, 235, 235);
     box-shadow: 10px 10px 20px 8px rgba(131, 131, 133, 0.2);
