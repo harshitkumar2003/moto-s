@@ -366,7 +366,7 @@ nav.navbar.bootsnav .navbar-toggle i {
         4. Model-Search
 --------------------------------------*/
 .model-search-content .col-sm-12 {/* #bike-search */
-    padding: 0px;
+  padding: auto;
 }
 
 .model-search-content {

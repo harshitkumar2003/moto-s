@@ -9,9 +9,10 @@
 	}
 
 	.model-search-content {
+		margin: auto;
 		position: relative;
-		bottom: 0;
 		top: 100px;
+		left: auto;
 	}
 }
 
