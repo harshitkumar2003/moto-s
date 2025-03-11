@@ -257,7 +257,6 @@ nav.navbar.bootsnav ul.nav>li.dropdown span {
     padding: 30px 25px;
 }
 
-/*.menu-ui-design*/
 .menu-ui-design {
     overflow-y: scroll;
     height: 350px;
@@ -275,8 +274,7 @@ nav.navbar.bootsnav ul.nav>li.dropdown span {
     background-color: crimson;
 }
 
-/*.navbar-toggle */
-nav.navbar.bootsnav .navbar-toggle {
+nav.navbar.bootsnav .navbar-toggle {/*.navbar-toggle */
     position: relative;
     background-color: transparent;
     border: 1px solid #ffffff;
@@ -319,8 +317,8 @@ nav.navbar.bootsnav .navbar-toggle i {
     z-index: 99;
 }
 
-/*.welcome-hero-txt*/
-.welcome-hero-txt {
+
+.welcome-hero-txt {/*.welcome-hero-txt*/
     text-align: center;
     padding: 250px 0 250px;
     z-index: +1;
