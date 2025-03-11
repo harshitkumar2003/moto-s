@@ -1106,10 +1106,11 @@ nav.navbar.bootsnav .navbar-toggle i {
     color: #ffffff;
 }
 
+
 /*===============================
     Scroll Top
 ===============================*/
-#scroll-Top .return-to-top {
+/* #scroll-Top .return-to-top {
     position: fixed;
     right: 30px;
     bottom: 30px;
@@ -1150,9 +1151,9 @@ nav.navbar.bootsnav .navbar-toggle i {
     animation-direction: alternate;
     animation-iteration-count: infinite;
     animation-duration: 1s;
-}
+} */
 
-@keyframes example {
+/* @keyframes example {
     0% {
         bottom: 0px;
     }
@@ -1160,6 +1161,4 @@ nav.navbar.bootsnav .navbar-toggle i {
     100% {
         bottom: 7px;
     }
-}
-
-/*========================Thank you=================
+} */
