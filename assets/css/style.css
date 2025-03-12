@@ -781,8 +781,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 /*-------------------------------------
         11. Contact
 --------------------------------------*/
-/* Layout Styles */
-.add-padding {
+.add-padding {/* Layout Styles */
     padding-top: 120px;
     padding-bottom: 120px;
     background-color: #10184b;
