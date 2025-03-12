@@ -539,8 +539,8 @@ nav.navbar.bootsnav .navbar-toggle i {
     padding-top: 96px;
 }
 
-.new-bikes-txt {
-    /*.new-bikes-txt*/
+.new-bikes-txt {    /*.new-bikes-txt*/
+
     margin-left: 29px;
     margin-bottom: 30px;
 }
@@ -565,7 +565,6 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .new-bikes .owl-theme .owl-dots .owl-dot span {    /*.owl-dots */
-
     width: 8px;
     height: 8px;
     margin: 0px 4px;
