@@ -587,8 +587,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 /*-------------------------------------
         7. Featured-bikes
 --------------------------------------*/
-.featured-bikes {
-    /*.single-featured-bikes*/
+.featured-bikes {    /*.single-featured-bikes*/
     padding: 112px 0 120px;
     background-color: rgb(237, 233, 233);
 }
