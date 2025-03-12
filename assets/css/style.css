@@ -320,8 +320,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 
-.welcome-hero-txt {
-    /*.welcome-hero-txt*/
+.welcome-hero-txt {  /*.welcome-hero-txt*/
     text-align: center;
     padding: 250px 0 250px;
     z-index: +1;
