@@ -675,8 +675,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     background: #d3cfcfd6;
 }
 
-.single-testimonial-box {
-    /*single-testimonial-box */
+.single-testimonial-box {    /*single-testimonial-box */
     padding: 50px 30px 57px;
     text-align: center;
     border: 1px solid transparent;
@@ -690,14 +689,12 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .clients-say .testimonial-carousel .col-sm-3,
-/*testimonial-description*/
-.clients-say .testimonial-carousel .col-xs-12 {
+.clients-say .testimonial-carousel .col-xs-12 {/*testimonial-description*/
     width: 100%;
     height: auto;
 }
 
-.testimonial-img {
-    /* testimonial-info */
+.testimonial-img {  /* testimonial-info */
     margin-right: 5px;
     border-radius: 50%;
     -webkit-transition: .3s;
@@ -718,8 +715,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     margin-top: 10px;
 }
 
-.testimonial-comment p {
-    /* testimonial-comment */
+.testimonial-comment p {    /* testimonial-comment */
     font-size: 16px;
     color: #5e6778;
     margin-top: 30px;
@@ -738,8 +734,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     box-shadow: 0 12px 30px 0px rgba(0, 1, 193, .2);
 }
 
-.clients-say .owl-carousel .owl-stage {
-    /*owl carousel*/
+.clients-say .owl-carousel .owl-stage {    /*owl carousel*/
     position: relative;
     padding: 100px 0 40px;
 }
