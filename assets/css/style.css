@@ -129,8 +129,8 @@ body {
     z-index: 0;
 }
 
-/* section-header */
-.section-header {
+.section-header {/* section-header */
+
     position: relative;
     text-align: center;
 }
