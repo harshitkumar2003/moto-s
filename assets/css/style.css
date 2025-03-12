@@ -180,8 +180,7 @@ nav.navbar.bootsnav {
     box-shadow: 0 2px 5px rgba(47, 44, 44, 0.911);
 }
 
-.navbar-header a img {
-    /* logo do not show if display none */
+.navbar-header a img {   /* logo do not show if display none */
     display: none;
     position: relative;
     left: -2em;
