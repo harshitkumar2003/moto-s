@@ -564,8 +564,8 @@ nav.navbar.bootsnav .navbar-toggle i {
     margin-top: 32px;
 }
 
-.new-bikes .owl-theme .owl-dots .owl-dot span {
-    /*.owl-dots */
+.new-bikes .owl-theme .owl-dots .owl-dot span {    /*.owl-dots */
+
     width: 8px;
     height: 8px;
     margin: 0px 4px;
